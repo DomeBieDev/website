@@ -1,0 +1,111 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+img {
+    max-width: 80px;
+    width: 100%;
+}
+
+.kopfzeile {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.kopfzeile-profilbild {
+    object-fit: cover;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.kopfzeile-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.link-container-title {
+    margin: 0 0 8px;
+    font-size: 16px;
+    line-height: 1;
+    color: #888888;
+}
+
+.link-card {
+    display: flex; 
+    background-color: #141414;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 16px;
+    transition: background-color 0.2s;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.link-card:hover {
+    background-color: #1A1A1A;
+}
+
+.link-card-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.link-card-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.link-card-arrow {
+    width: 20px;
+    height: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.body-text {
+    margin-bottom: 48px;
+}
+
+.body-text p {
+    font-size: 18px;
+    line-height: 1.7;
+}
